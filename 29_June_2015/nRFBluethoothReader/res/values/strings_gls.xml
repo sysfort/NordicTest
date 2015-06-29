@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <string name="history_feature_title">BGM</string>
+    <string name="history_feature_title_long">HISTORY MONITOR</string>
+
+    <dimen name="history_feature_title_long_margin">-126dp</dimen>
+
+    <string name="history_default_name">DEFAULT BGM</string>
+    <string name="history_section_data">READINGS</string>
+    <string name="history_timestamp">%1$te %1$tb %1$tY --- %1$tT</string>
+    <string name="history_no_data">-----</string>
+    <string name="history_section_actions">CONTROL</string>
+    <string name="history_action_all">All</string>
+    <string name="history_action_last">Last</string>
+    <string name="history_action_more">First</string>
+    <string name="history_action_abort">Abort</string>
+    <string name="history_action_refresh">Refresh</string>
+    <string name="history_action_first">First</string>
+    <string name="history_action_clear">Clear</string>
+    <string name="history_action_delete_all">Delete all</string>
+
+    <string-array name="history_type">
+        <item>Reserved for future use</item>
+        <item>Capillary Whole blood</item>
+        <item>Capillary Plasma</item>
+        <item>Venous Whole blood</item>
+        <item>Venous Plasma</item>
+        <item>Arterial Whole blood</item>
+        <item>Arterial Plasma</item>
+        <item>Undetermined Whole blood</item>
+        <item>Undetermined Plasma</item>
+        <item>Interstitial Fluid (ISF)</item>
+        <item>Control Solution</item>
+    </string-array>
+    <string name="history_location_title">Sample Location</string>
+    <string-array name="history_location">
+        <item>Reserved for future use</item>
+		<item>Finger</item>
+		<item>Alternate Site Test (AST)</item>
+		<item>Earlobe</item>
+		<item>Control solution</item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item>Sample Location value not available</item>
+    </string-array>
+    <string name="history_status_annunciation_title">Sensor Status Annunciation</string>
+    <string-array name="history_status_annunciation">
+        <item>Device battery low at time of measurement</item>
+	    <item>Sensor malfunction or faulting at time of measurement</item>
+	    <item>Sample size for blood or control solution insufficient at time of measurement</item>
+	    <item>Strip insertion error</item>
+	    <item>Strip type incorrect for device</item>
+	    <item>Sensor result higher than the device can process</item>
+	    <item>Sensor result lower than the device can process</item>
+	    <item>Sensor temperature too high for valid test/result at time of measurement</item>
+	    <item>Sensor temperature too low for valid test/result at time of measurement</item>
+	    <item>Sensor read interrupted because strip was pulled too soon at time of measurement</item>
+	    <item>General device fault has occurred in the sensor</item>
+	    <item>Time fault has occurred in the sensor and time may be inaccurate</item>
+    </string-array>
+    <string name="history_context_carbohydrare_title">Carbohydrate</string>
+    <string-array name="history_context_carbohydrare">
+        <item>Reserved for future use</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+        <item>Drink</item>
+        <item>Supper</item>
+        <item>Brunch</item>
+    </string-array>
+    <string name="history_context_meal_title">Meal</string>
+    <string-array name="history_context_meal">
+        <item>Reserved for future use</item>
+        <item>Preprandial (before meal)</item>
+        <item>Postprandial (after meal)</item>
+        <item>Fasting</item>
+        <item>Casual (snacks, drinks, etc.)</item>
+        <item>Bedtime</item>
+    </string-array>
+    <string name="history_context_tester_title">Tester</string>
+    <string-array name="history_context_tester">
+        <item>Reserved for future use</item>
+        <item>Self</item>
+        <item>Health Care Professional</item>
+        <item>Lab test</item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+        <item>Tester value not available</item>
+    </string-array>
+    <string name="history_context_health_title">Health</string>
+    <string-array name="history_context_health">
+        <item>Reserved for future use</item>
+        <item>Minor health issues</item>
+        <item>Major health issues</item>
+        <item>During menses</item>
+        <item>Under stress</item>
+        <item>No health issues</item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item>Health value not available</item>
+    </string-array>
+    
+    
+    <string name="history_progress">Loading----- %d records</string>
+    <string name="history_operation_not_supported">Operation not supported by the device</string>
+    <string name="history_operation_failed">Operation failed</string>
+    <string name="history_value">%.1f</string>
+    <string name="history_unit_mgpdl"></string>
+    <string name="history_unit_mmolpl"></string>
+
+    <string name="history_about_text">HISTORY SERVICE </string>
+
+</resources>

@@ -1,0 +1,540 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ravi Sysfort, Sysfort, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\pc\Documents4\ble_peripheral\ble_app_gls\pca10028\ser_s110_spi\arm5\ble_app_gls_s110_spi_pca10028.uvprojx
+Project File Date:  05/27/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'nrf51422_xxac_s110'
+linking...
+.\_build\nrf51422_xxac_s110.axf: error: L6050U: The code size of this image (42608 bytes) exceeds the maximum allowed for this version of the linker.
+Finished: 0 information, 0 warning, 0 error and 1 fatal error messages.
+".\_build\nrf51422_xxac_s110.axf" - 1 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_BLE/NordicSemiconductor.nRF_BLE.3.0.0.pack
+                NordicSemiconductor::nRF_BLE:BLE_Modules:ble_conn_params:3.0.0
+                Bluetooth Low Energy (Bluetooth Smart) services and software modules for Nordic Semiconductor nRF family.
+   * Component: ble_conn_params Version: 3.0.0
+   * Component: ble_service_common Version: 3.0.0
+   * Component: ble_gls Version: 3.0.0
+   * Component: ble_bas Version: 3.0.0
+   * Component: device_manager Variant: Peripheral Version: 3.0.0
+   * Component: ble_dis Version: 3.0.0
+   * Component: ble_racp Version: 3.0.0
+   * Component: ble_common Version: 3.0.0
+   * Component: ble_advertising Version: 3.0.0
+   * Component: ble_advdata Version: 3.0.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.7.2.1.pack
+                NordicSemiconductor::Device:Startup:7.2.1
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 7.2.1
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers/NordicSemiconductor.nRF_Drivers.3.0.0.pack
+                NordicSemiconductor::nRF_Drivers:nrf_delay:3.0.0
+                Drivers for Nordic Semiconductor nRF family.
+   * Component: nrf_delay Version: 3.0.0
+   * Component: nrf_gpio Version: 3.0.0
+   * Component: ble_flash Version: 3.0.0
+   * Component: spi_master Version: 3.0.0
+   * Component: nrf_gpiote Version: 3.0.0
+   * Component: nrf_error Variant: default Version: 3.0.0
+   * Component: pstorage Variant: No_softdevice Version: 3.0.0
+   * Component: nrf_soc Variant: Serialized Version: 3.0.0
+   * Component: nrf_drv_gpiote Version: 3.0.0
+   * Component: nrf_drv_common Version: 3.0.0
+   * Component: app_uart Variant: Fifo Version: 3.0.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Examples/NordicSemiconductor.nRF_Examples.8.1.1.pack
+                NordicSemiconductor::Board Support:bsp:Uart:8.1.1
+                Examples and BSP for Nordic Semiconductor nRF family.
+   * Component: bsp Variant: Uart Version: 8.1.1
+   * Component: bsp_btn_ble Version: 8.1.1
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Libraries/NordicSemiconductor.nRF_Libraries.3.0.0.pack
+                NordicSemiconductor::nRF_Libraries:app_button:3.0.0
+                Software modules for Nordic Semiconductor nRF family.
+   * Component: app_button Version: 3.0.0
+   * Component: app_error Version: 3.0.0
+   * Component: app_scheduler Variant: default Version: 3.0.0
+   * Component: retarget Version: 3.0.0
+   * Component: app_fifo Version: 3.0.0
+   * Component: sensorsim Version: 3.0.0
+   * Component: app_trace Variant: default Version: 3.0.0
+   * Component: nrf_assert Version: 3.0.0
+   * Component: app_timer Variant: default Version: 3.0.0
+   * Component: app_util Variant: No_softdevice Version: 3.0.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Serialization/NordicSemiconductor.nRF_Serialization.2.0.0.pack
+                NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_evt_mux:2.0.0
+                Serialization for Nordic Semiconductor nRF family Bluetooth Low Energy (Bluetooth Smart) SoftDevices.
+   * Component: serapp_codecs_s110_ble_evt_mux Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_gattc_evt Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_l2cap_evt Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_gap Version: 2.0.0
+   * Component: ser_phy Variant: Spi_master Version: 2.0.0
+   * Component: ser_codecs_common Version: 2.0.0
+   * Component: cond_field_serialization Version: 2.0.0
+   * Component: serapp_codecs_s110_ble Version: 2.0.0
+   * Component: ser_codecs_s110_ble_gatts_struct Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_gatts Version: 2.0.0
+   * Component: ser_sd_transport Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_gattc Version: 2.0.0
+   * Component: ser_codecs_s110_ble_gattc_struct Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_l2cap Version: 2.0.0
+   * Component: ser_app_hal Version: 2.0.0
+   * Component: serapp_mw_s110 Version: 2.0.0
+   * Component: ser_hal_transport Version: 2.0.0
+   * Component: serapp_codecs_s110_nrf_soc Version: 2.0.0
+   * Component: ser_codecs_s110_ble_struct Version: 2.0.0
+   * Component: app_mailbox Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_gatts_evt Version: 2.0.0
+   * Component: serapp_s110 Version: 2.0.0
+   * Component: ser_softdevice_handler Version: 2.0.0
+   * Component: ser_codecs_s110_ble_gap_struct Version: 2.0.0
+   * Component: serapp_codecs_s110_ble_gap_evt Version: 2.0.0
+   * Component: serapp_hal_power_system_off Version: 2.0.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_SoftDevice_Common/NordicSemiconductor.nRF_SoftDevice_Common.1.1.3.pack
+                NordicSemiconductor::nRF_SoftDevice:Internal:sd_common:default:1.1.3
+                Common components for Nordic Semiconductor nRF family SoftDevices.
+   * Component: sd_common Variant: default Version: 1.1.3
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_SoftDevice_S110/NordicSemiconductor.nRF_SoftDevice_S110.8.0.1.pack
+                NordicSemiconductor::nRF_SoftDevice:s110:Serialized:8.0.1
+                Components for Bluetooth Low Energy (Bluetooth Smart) S110 SoftDevice for Nordic Semiconductor nRF family.
+   * Component: s110 Variant: Serialized Version: 8.0.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\pc\Documents4\ble_peripheral\ble_app_gls\pca10028\ser_s110_spi\arm5\RTE
+  C:\Users\pc\Documents4\ble_peripheral\ble_app_gls\pca10028\ser_s110_spi\arm5\RTE\nRF_BLE\nRF51422_xxAC
+  C:\Users\pc\Documents4\ble_peripheral\ble_app_gls\pca10028\ser_s110_spi\arm5\RTE\nRF_Drivers\nRF51422_xxAC
+  C:\Users\pc\Documents4\ble_peripheral\ble_app_gls\pca10028\ser_s110_spi\arm5\RTE\nRF_Libraries\nRF51422_xxAC
+  C:\Users\pc\Documents4\ble_peripheral\ble_app_gls\pca10028\ser_s110_spi\arm5\RTE\nRF_Serialization\nRF51422_xxAC
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\ble_advertising
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\ble_racp
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\ble_services\ble_bas
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\ble_services\ble_dis
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\ble_services\ble_gls
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\common
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\3.0.0\device_manager
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\ble_flash
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\common
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\config
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\gpiote
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\hal
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\pstorage
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\spi_master
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\uart
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\8.1.1\bsp
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\button
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\fifo
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\scheduler
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\sensorsim
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\timer
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\trace
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.0\util
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\application\codecs\s110\serializers
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\application\hal
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\application\transport
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\common
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\common\struct_ser\s110
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\common\transport
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\common\transport\ser_phy
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Serialization\2.0.0\common\transport\ser_phy\config
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.3\softdevice_handler
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.1\headers
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_conn_params:3.0.0
+      Source file:   common\ble_conn_params.c
+      Include file:  common\ble_conn_params.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_service_common:3.0.0
+      Source file:   common\ble_srv_common.c
+      Include file:  common\ble_srv_common.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Services:ble_gls:3.0.0
+      Source file:   ble_services\ble_gls\ble_gls.c
+      Source file:   ble_services\ble_gls\ble_gls_db.c
+      Include file:  ble_services\ble_gls\ble_gls.h
+      Include file:  ble_services\ble_gls\ble_gls_db.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Services:ble_bas:3.0.0
+      Source file:   ble_services\ble_bas\ble_bas.c
+      Include file:  ble_services\ble_bas\ble_bas.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:device_manager:Peripheral:3.0.0
+      Source file:   device_manager\device_manager_peripheral.c
+      Include file:  device_manager\config\device_manager_cnfg.h
+      Include file:  device_manager\device_manager.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Services:ble_dis:3.0.0
+      Source file:   ble_services\ble_dis\ble_dis.c
+      Include file:  ble_services\ble_dis\ble_dis.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_racp:3.0.0
+      Source file:   ble_racp\ble_racp.c
+      Include file:  ble_racp\ble_racp.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_common:3.0.0
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_advertising:3.0.0
+      Source file:   ble_advertising\ble_advertising.c
+      Include file:  ble_advertising\ble_advertising.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_advdata:3.0.0
+      Source file:   common\ble_advdata.c
+      Include file:  common\ble_advdata.h
+
+   * Component: NordicSemiconductor::Device:Startup:7.2.1
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_delay:3.0.0
+      Source file:   hal\nrf_delay.c
+      Include file:  hal\nrf_delay.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_gpio:3.0.0
+      Include file:  hal\nrf_gpio.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:ble_flash:3.0.0
+      Source file:   ble_flash\ble_flash.c
+
+   * Component: NordicSemiconductor::nRF_Drivers:spi_master:3.0.0
+      Source file:   spi_master\spi_master.c
+      Include file:  spi_master\spi_master.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_gpiote:3.0.0
+      Include file:  hal\nrf_gpiote.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_error:default:3.0.0
+
+   * Component: NordicSemiconductor::nRF_Drivers:pstorage:No_softdevice:3.0.0
+      Source file:   pstorage\pstorage_nosd.c
+      Include file:  pstorage\pstorage.h
+      Include file:  pstorage\config\pstorage_platform.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_soc:Serialized:3.0.0
+      Source file:   nrf_soc_nosd\nrf_soc.c
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_drv_gpiote:3.0.0
+      Source file:   gpiote\nrf_drv_gpiote.c
+      Include file:  gpiote\nrf_drv_gpiote.h
+      Include file:  config\nrf_drv_config.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_drv_common:3.0.0
+      Source file:   common\nrf_drv_common.c
+      Include file:  common\nrf_drv_common.h
+
+   * Component: NordicSemiconductor::nRF_Drivers:app_uart:Fifo:3.0.0
+      Source file:   uart\app_uart_fifo.c
+      Include file:  uart\app_uart.h
+
+   * Component: NordicSemiconductor::Board Support:bsp:Uart:8.1.1
+      Source file:   bsp\bsp.c
+
+   * Component: NordicSemiconductor::Board Support:bsp_btn_ble:8.1.1
+      Source file:   bsp\bsp_btn_ble.c
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_button:3.0.0
+      Source file:   button\app_button.c
+      Include file:  button\app_button.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_error:3.0.0
+      Source file:   util\app_error.c
+      Include file:  util\app_error.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_scheduler:default:3.0.0
+      Source file:   scheduler\app_scheduler.c
+      Include file:  scheduler\app_scheduler.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:retarget:3.0.0
+      Source file:   uart\retarget.c
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_fifo:3.0.0
+      Source file:   fifo\app_fifo.c
+      Include file:  fifo\app_fifo.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:sensorsim:3.0.0
+      Source file:   sensorsim\sensorsim.c
+      Include file:  sensorsim\sensorsim.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_trace:default:3.0.0
+      Source file:   trace\app_trace.c
+      Include file:  trace\app_trace.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:nrf_assert:3.0.0
+      Source file:   util\nrf_assert.c
+      Include file:  util\nrf_assert.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_timer:default:3.0.0
+      Source file:   timer\app_timer.c
+      Include file:  timer\app_timer.h
+
+   * Component: NordicSemiconductor::nRF_Libraries:app_util:No_softdevice:3.0.0
+      Source file:   util\app_util_platform.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_evt_mux:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_event.c
+      Source file:   application\codecs\s110\serializers\ble_evt_tx_complete.c
+      Source file:   application\codecs\s110\serializers\ble_evt_user_mem_request.c
+      Source file:   application\codecs\s110\serializers\ble_evt_user_mem_release.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_gattc_evt:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_char_disc_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_char_val_by_uuid_read_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_char_vals_read_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_desc_disc_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_hvx.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_prim_srvc_disc_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_read_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_rel_disc_rsp.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_timeout.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_evt_write_rsp.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_l2cap_evt:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_l2cap_evt_rx.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_gap:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_gap_address_get.c
+      Source file:   application\codecs\s110\serializers\ble_gap_address_set.c
+      Source file:   application\codecs\s110\serializers\ble_gap_adv_data_set.c
+      Source file:   application\codecs\s110\serializers\ble_gap_adv_start.c
+      Source file:   application\codecs\s110\serializers\ble_gap_adv_stop.c
+      Source file:   application\codecs\s110\serializers\ble_gap_appearance_get.c
+      Source file:   application\codecs\s110\serializers\ble_gap_appearance_set.c
+      Source file:   application\codecs\s110\serializers\ble_gap_auth_key_reply.c
+      Source file:   application\codecs\s110\serializers\ble_gap_authenticate.c
+      Source file:   application\codecs\s110\serializers\ble_gap_conn_param_update.c
+      Source file:   application\codecs\s110\serializers\ble_gap_conn_sec_get.c
+      Source file:   application\codecs\s110\serializers\ble_gap_connect.c
+      Source file:   application\codecs\s110\serializers\ble_gap_connect_cancel.c
+      Source file:   application\codecs\s110\serializers\ble_gap_device_name_get.c
+      Source file:   application\codecs\s110\serializers\ble_gap_device_name_set.c
+      Source file:   application\codecs\s110\serializers\ble_gap_disconnect.c
+      Source file:   application\codecs\s110\serializers\ble_gap_ppcp_get.c
+      Source file:   application\codecs\s110\serializers\ble_gap_ppcp_set.c
+      Source file:   application\codecs\s110\serializers\ble_gap_rssi_start.c
+      Source file:   application\codecs\s110\serializers\ble_gap_rssi_stop.c
+      Source file:   application\codecs\s110\serializers\ble_gap_rssi_get.c
+      Source file:   application\codecs\s110\serializers\ble_gap_sec_info_reply.c
+      Source file:   application\codecs\s110\serializers\ble_gap_sec_params_reply.c
+      Source file:   application\codecs\s110\serializers\ble_gap_tx_power_set.c
+      Source file:   application\codecs\s110\serializers\ble_gap_encrypt.c
+      Source file:   application\codecs\s110\serializers\ble_gap_scan_start.c
+      Source file:   application\codecs\s110\serializers\ble_gap_scan_stop.c
+      Source file:   application\codecs\s110\serializers\app_ble_gap_sec_keys.c
+      Source file:   application\codecs\s110\serializers\app_ble_user_mem.c
+      Include file:  application\codecs\s110\serializers\ble_gap_app.h
+      Include file:  application\codecs\s110\serializers\app_ble_gap_sec_keys.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:ser_phy:Spi_master:2.0.0
+      Source file:   common\transport\ser_phy\ser_phy_nrf51_spi_master.c
+      Include file:  common\transport\ser_phy\ser_phy.h
+      Include file:  common\transport\ser_phy\config\ser_phy_config_app_nrf51.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_codecs_common:2.0.0
+      Source file:   common\ble_serialization.c
+      Include file:  common\ble_serialization.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:cond_field_serialization:2.0.0
+      Source file:   common\cond_field_serialization.c
+      Source file:   common\cond_field_serialization.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_enable.c
+      Source file:   application\codecs\s110\serializers\ble_opt_get.c
+      Source file:   application\codecs\s110\serializers\ble_opt_set.c
+      Source file:   application\codecs\s110\serializers\ble_tx_buffer_count_get.c
+      Source file:   application\codecs\s110\serializers\ble_uuid_decode.c
+      Source file:   application\codecs\s110\serializers\ble_uuid_encode.c
+      Source file:   application\codecs\s110\serializers\ble_uuid_vs_add.c
+      Source file:   application\codecs\s110\serializers\ble_version_get.c
+      Source file:   application\codecs\s110\serializers\ble_user_mem_reply.c
+      Source file:   application\codecs\s110\serializers\app_ble_user_mem.c
+      Include file:  application\codecs\s110\serializers\ble_app.h
+      Include file:  application\codecs\s110\serializers\app_ble_user_mem.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_codecs_s110_ble_gatts_struct:2.0.0
+      Source file:   common\struct_ser\s110\ble_gatts_struct_serialization.c
+      Include file:  common\struct_ser\s110\ble_gatts_struct_serialization.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_gatts:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_gatts_characteristic_add.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_descriptor_add.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_hvx.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_include_add.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_rw_authorize_reply.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_service_add.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_service_changed.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_sys_attr_get.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_sys_attr_set.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_value_get.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_value_set.c
+      Include file:  application\codecs\s110\serializers\ble_gatts_app.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_sd_transport:2.0.0
+      Source file:   application\transport\ser_sd_transport.c
+      Include file:  application\transport\ser_sd_transport.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_gattc:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_gattc_char_value_by_uuid_read.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_char_values_read.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_characteristics_discover.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_descriptors_discover.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_hv_confirm.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_primary_services_discover.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_read.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_relationships_discover.c
+      Source file:   application\codecs\s110\serializers\ble_gattc_write.c
+      Include file:  application\codecs\s110\serializers\ble_gattc_app.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_codecs_s110_ble_gattc_struct:2.0.0
+      Source file:   common\struct_ser\s110\ble_gattc_struct_serialization.c
+      Include file:  common\struct_ser\s110\ble_gattc_struct_serialization.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_l2cap:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_l2cap_cid_register.c
+      Source file:   application\codecs\s110\serializers\ble_l2cap_cid_unregister.c
+      Source file:   application\codecs\s110\serializers\ble_l2cap_tx.c
+      Include file:  application\codecs\s110\serializers\ble_l2cap_app.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_app_hal:2.0.0
+      Source file:   application\hal\ser_app_hal_nrf51.c
+      Include file:  application\hal\ser_app_hal.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_mw_s110:2.0.0
+      Source file:   application\codecs\s110\middleware\app_mw_nrf_soc.c
+      Source file:   application\codecs\s110\middleware\app_mw_ble_l2cap.c
+      Source file:   application\codecs\s110\middleware\app_mw_ble.c
+      Source file:   application\codecs\s110\middleware\app_mw_ble_gap.c
+      Source file:   application\codecs\s110\middleware\app_mw_ble_gattc.c
+      Source file:   application\codecs\s110\middleware\app_mw_ble_gatts.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_hal_transport:2.0.0
+      Source file:   common\transport\ser_hal_transport.c
+      Include file:  common\transport\ser_hal_transport.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_nrf_soc:2.0.0
+      Source file:   application\codecs\s110\serializers\power_system_off.c
+      Source file:   application\codecs\s110\serializers\temp_get.c
+      Include file:  application\codecs\s110\serializers\nrf_soc_app.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_codecs_s110_ble_struct:2.0.0
+      Source file:   common\struct_ser\s110\ble_struct_serialization.c
+      Include file:  common\struct_ser\s110\ble_struct_serialization.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:app_mailbox:2.0.0
+      Source file:   application\transport\app_mailbox.c
+      Include file:  application\transport\app_mailbox.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_gatts_evt:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_gatts_evt_hvc.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_evt_rw_authorize_request.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_evt_sc_confirm.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_evt_sys_attr_missing.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_evt_timeout.c
+      Source file:   application\codecs\s110\serializers\ble_gatts_evt_write.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_s110:2.0.0
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_softdevice_handler:2.0.0
+      Source file:   application\transport\ser_softdevice_handler.c
+      Include file:  application\transport\ser_softdevice_handler.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:ser_codecs_s110_ble_gap_struct:2.0.0
+      Source file:   common\struct_ser\s110\ble_gap_struct_serialization.c
+      Include file:  common\struct_ser\s110\ble_gap_struct_serialization.h
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_codecs_s110_ble_gap_evt:2.0.0
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_adv_report.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_auth_key_request.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_auth_status.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_conn_param_update.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_conn_param_update_request.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_conn_sec_update.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_connected.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_disconnected.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_passkey_display.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_rssi_changed.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_sec_info_request.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_sec_params_request.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_timeout.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_scan_req_report.c
+      Source file:   application\codecs\s110\serializers\ble_gap_evt_sec_request.c
+
+   * Component: NordicSemiconductor::nRF_Serialization:Internal:serapp_hal_power_system_off:2.0.0
+      Source file:   application\hal\ser_app_power_system_off.c
+      Include file:  application\hal\ser_app_power_system_off.h
+
+   * Component: NordicSemiconductor::nRF_SoftDevice:Internal:sd_common:default:1.1.3
+      Source file:   softdevice_handler\softdevice_handler.c
+
+   * Component: NordicSemiconductor::nRF_SoftDevice:s110:Serialized:8.0.1
+      Include file:  headers\ble.h
+      Include file:  headers\ble_gatt.h
+      Include file:  headers\ble_hci.h
+      Include file:  headers\ble_types.h
+      Include file:  headers\nrf_error_soc.h
+      Include file:  headers\nrf_soc.h
+      Include file:  headers\ble_err.h
+      Include file:  headers\ble_gattc.h
+      Include file:  headers\ble_l2cap.h
+      Include file:  headers\nrf_error.h
+      Include file:  headers\nrf_mbr.h
+      Include file:  headers\nrf_svc.h
+      Include file:  headers\ble_gap.h
+      Include file:  headers\ble_gatts.h
+      Include file:  headers\ble_ranges.h
+      Include file:  headers\nrf_error_sdm.h
+      Include file:  headers\nrf_sdm.h
+      Include file:  headers\softdevice_assert.h
+      Include file:  headers\nrf_sd_def.h
+Target not created.
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.\_build\ser_app_power_system_off.o: RTE\nRF_Serialization\nRF51422_xxAC\ser_app_power_system_off.c
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\nrf51.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\system_nrf51.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\nrf51_bitfields.h
+.\_build\ser_app_power_system_off.o: RTE\nRF_Serialization\nRF51422_xxAC\ser_app_power_system_off.h
+.\_build\ser_app_power_system_off.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

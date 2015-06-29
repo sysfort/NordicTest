@@ -1,0 +1,20 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/history_action_refresh"/>
+    
+    <item
+        android:id="@+id/action_first"
+        android:title="@string/history_action_first"/>
+    
+    <item
+        android:id="@+id/action_clear"
+        android:title="@string/history_action_clear"/>
+    
+    <item
+        android:id="@+id/action_delete_all"
+        android:title="@string/history_action_delete_all"/>
+    
+</menu>
